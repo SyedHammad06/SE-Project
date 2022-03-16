@@ -1,0 +1,10 @@
+c:\users\hammad\documents\visual studio 2012\Projects\Time Management System\Time Management System\bin\Debug\Time Management System.exe.config
+c:\users\hammad\documents\visual studio 2012\Projects\Time Management System\Time Management System\bin\Debug\Time Management System.exe
+c:\users\hammad\documents\visual studio 2012\Projects\Time Management System\Time Management System\bin\Debug\Time Management System.pdb
+c:\users\hammad\documents\visual studio 2012\Projects\Time Management System\Time Management System\bin\Debug\Time Management System.xml
+c:\users\hammad\documents\visual studio 2012\Projects\Time Management System\Time Management System\obj\Debug\Time_Management_System.Form1.resources
+c:\users\hammad\documents\visual studio 2012\Projects\Time Management System\Time Management System\obj\Debug\Time_Management_System.Resources.resources
+c:\users\hammad\documents\visual studio 2012\Projects\Time Management System\Time Management System\obj\Debug\Time Management System.vbproj.GenerateResource.Cache
+c:\users\hammad\documents\visual studio 2012\Projects\Time Management System\Time Management System\obj\Debug\Time Management System.exe
+c:\users\hammad\documents\visual studio 2012\Projects\Time Management System\Time Management System\obj\Debug\Time Management System.xml
+c:\users\hammad\documents\visual studio 2012\Projects\Time Management System\Time Management System\obj\Debug\Time Management System.pdb
