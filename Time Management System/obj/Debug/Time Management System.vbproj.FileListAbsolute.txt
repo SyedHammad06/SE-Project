@@ -8,3 +8,5 @@ c:\users\hammad\documents\visual studio 2012\Projects\Time Management System\Tim
 c:\users\hammad\documents\visual studio 2012\Projects\Time Management System\Time Management System\obj\Debug\Time Management System.exe
 c:\users\hammad\documents\visual studio 2012\Projects\Time Management System\Time Management System\obj\Debug\Time Management System.xml
 c:\users\hammad\documents\visual studio 2012\Projects\Time Management System\Time Management System\obj\Debug\Time Management System.pdb
+c:\users\hammad\documents\visual studio 2012\Projects\Time Management System\Time Management System\bin\Debug\Users.mdf
+c:\users\hammad\documents\visual studio 2012\Projects\Time Management System\Time Management System\bin\Debug\Users_log.ldf
