@@ -40,6 +40,7 @@ Public Class LoginForm
             MessageBox.Show(output, "Login", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Else
             MessageBox.Show(output, "Login", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Form1.Show()
             ' Redirect to a new page
         End If
     End Sub

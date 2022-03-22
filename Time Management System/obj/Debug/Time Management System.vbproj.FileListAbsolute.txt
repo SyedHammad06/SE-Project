@@ -10,3 +10,4 @@ c:\users\hammad\documents\visual studio 2012\Projects\Time Management System\Tim
 C:\Users\Hammad\Documents\Visual Studio 2012\Projects\Time Management System\Time Management System\bin\Debug\Database.mdf
 C:\Users\Hammad\Documents\Visual Studio 2012\Projects\Time Management System\Time Management System\bin\Debug\Database_log.ldf
 C:\Users\Hammad\Documents\Visual Studio 2012\Projects\Time Management System\Time Management System\obj\Debug\Time_Management_System.LoginForm.resources
+C:\Users\Hammad\Documents\Visual Studio 2012\Projects\Time Management System\Time Management System\obj\Debug\Time_Management_System.Form1.resources

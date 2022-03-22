@@ -1,4 +1,5 @@
 ﻿Imports System.Data.SqlClient
+Imports System.Text.RegularExpressions
 
 Module Utils
     Public Function ConnectDB() As Array
@@ -12,6 +13,14 @@ Module Utils
 
     ' Login
     Public Function Login(username As String, password As String) As Array
+        If (IsEmpty(username) And IsEmpty(password)) Then
+            Return {False, "Please provide an input"}
+        End If
+
+        If (IsPasswordValid(password) = False) Then
+            Return {False, "Password too short and it doesn't contain a number and an alphabet"}
+        End If
+
         Dim con = ConnectDB()(0)
         Dim cmd = ConnectDB()(1)
 
@@ -37,8 +46,21 @@ Module Utils
         End If
     End Function
 
+    'Signup
     Public Function Signup(username As String, email As String, password As String, confirmPassword As String) As Array
-        If password = confirmPassword Then
+        If (IsEmpty(username) And IsEmpty(password) And IsEmpty(email) And IsEmpty(confirmPassword)) Then
+            Return {False, "Please provide an input"}
+        End If
+
+        If (IsEmailValid(email) = False) Then
+            Return {False, "Invalid Email!"}
+        End If
+
+        If (IsPasswordValid(password) = False) Then
+            Return {False, "Password too short and it doesn't contain a number and an alphabet"}
+        End If
+
+        If (password = confirmPassword) Then
             Dim con = ConnectDB()(0)
             Dim cmd = ConnectDB()(1)
 
@@ -76,11 +98,38 @@ Module Utils
                 da.InsertCommand = cmd
                 Dim result = da.InsertCommand.ExecuteNonQuery()
 
-                Return {True, True, "Sign up successfull!"}
+                Return {True, "Sign up successfull!"}
                 ' Redirect to a new page
             End If
         Else
             Return {False, "Passwords don't match"}
         End If
+    End Function
+
+    'Function to check if the value is not empty'
+    Public Function IsEmpty(ByVal field As String) As Boolean
+        If (field = "") Then
+            Return True
+        End If
+        Return False
+    End Function
+
+    'Function to check if phone number is valid'
+    Public Function IsPasswordValid(ByVal password As String) As Boolean
+        Dim PasswordValid As Boolean
+        Dim PasswordNumber As String = "^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+        Dim ChekPassword As New Regex(PasswordNumber)
+        If Not String.IsNullOrEmpty(password) Then
+            PasswordValid = ChekPassword.IsMatch(password)
+        Else
+            PasswordValid = False
+        End If
+        Return PasswordValid
+    End Function
+
+    'Function to check if email is valid'
+    Public Function IsEmailValid(ByVal email As String) As Boolean
+        Dim emailExpression As New Regex("^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$")
+        Return emailExpression.IsMatch(email)
     End Function
 End Module
