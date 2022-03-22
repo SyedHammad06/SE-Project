@@ -11,3 +11,7 @@ C:\Users\Hammad\Documents\Visual Studio 2012\Projects\Time Management System\Tim
 C:\Users\Hammad\Documents\Visual Studio 2012\Projects\Time Management System\Time Management System\bin\Debug\Database_log.ldf
 C:\Users\Hammad\Documents\Visual Studio 2012\Projects\Time Management System\Time Management System\obj\Debug\Time_Management_System.LoginForm.resources
 C:\Users\Hammad\Documents\Visual Studio 2012\Projects\Time Management System\Time Management System\obj\Debug\Time_Management_System.Form1.resources
+C:\Users\Suleman\GitHub\SE-Project\Time Management System\bin\Debug\Time Management System.exe.config
+C:\Users\Suleman\GitHub\SE-Project\Time Management System\obj\Debug\Time Management System.exe
+C:\Users\Suleman\GitHub\SE-Project\Time Management System\obj\Debug\Time Management System.xml
+C:\Users\Suleman\GitHub\SE-Project\Time Management System\obj\Debug\Time Management System.pdb
