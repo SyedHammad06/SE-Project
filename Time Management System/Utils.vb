@@ -5,7 +5,7 @@ Module Utils
     Public Function ConnectDB() As Array
         Dim con As New SqlConnection
         Dim cmd As New SqlCommand
-        con.ConnectionString = "Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Hammad\Documents\Visual Studio 2012\Projects\Time Management System\Time Management System\Database.mdf;Integrated Security=True"
+        con.ConnectionString = "Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Suleman\GitHub\SE-Project\Time Management System\Database.mdf;Integrated Security=True"
         con.Open()
         cmd.Connection = con
         Return {con, cmd}

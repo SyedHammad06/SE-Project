@@ -15,3 +15,12 @@ C:\Users\Suleman\GitHub\SE-Project\Time Management System\bin\Debug\Time Managem
 C:\Users\Suleman\GitHub\SE-Project\Time Management System\obj\Debug\Time Management System.exe
 C:\Users\Suleman\GitHub\SE-Project\Time Management System\obj\Debug\Time Management System.xml
 C:\Users\Suleman\GitHub\SE-Project\Time Management System\obj\Debug\Time Management System.pdb
+C:\Users\Suleman\GitHub\SE-Project\Time Management System\bin\Debug\Database.mdf
+C:\Users\Suleman\GitHub\SE-Project\Time Management System\bin\Debug\Database_log.ldf
+C:\Users\Suleman\GitHub\SE-Project\Time Management System\bin\Debug\Time Management System.exe
+C:\Users\Suleman\GitHub\SE-Project\Time Management System\bin\Debug\Time Management System.pdb
+C:\Users\Suleman\GitHub\SE-Project\Time Management System\bin\Debug\Time Management System.xml
+C:\Users\Suleman\GitHub\SE-Project\Time Management System\obj\Debug\Time_Management_System.Form1.resources
+C:\Users\Suleman\GitHub\SE-Project\Time Management System\obj\Debug\Time_Management_System.LoginForm.resources
+C:\Users\Suleman\GitHub\SE-Project\Time Management System\obj\Debug\Time_Management_System.Resources.resources
+C:\Users\Suleman\GitHub\SE-Project\Time Management System\obj\Debug\Time Management System.vbproj.GenerateResource.Cache
